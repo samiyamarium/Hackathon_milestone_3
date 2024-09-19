@@ -1,0 +1,1 @@
+It is a dynamic RESUME where user can enter his/her resume details in 4 sections. It also provides ability to create pdf  of that resume and if theywant, they can fetch particulars that they have entered seperately as well.
