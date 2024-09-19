@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Milestone_3</title>
+        
+</head>
+    <body style="background-color: whitesmoke;color: blueviolet;">
+        <p style="text-align: end;">Dynamic Resume building using HTML,CSS & TYPESCRIPT!! </p>
+        <form  id="mile3" action="/action_page.php">
+            <p style="color: blueviolet;" ><b>PERSONAL DETAILS</b></p><br/>
+            <label>Candidate's Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text"  style="color: darkolivegreen; "/><br/><br/>
+            <label>Candidate's Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" style="color: darkblue;"/><br/><br/>
+            
+            <label>Candidate's Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>&nbsp;
+            <input type="text" style="color: blueviolet;"/><br/><br/>
+           
+<label>Candidate's Nationality&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+            <input type="text" style="color: crimson;"/><br/><br/>
+            <label>Candidate's Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><br/><br/>
+            <!-- <input type="text" style="color:green" /><br/> <br/>  -->
+           <textarea style="color: darkolivegreen; border-color: yellow;background-color: ghostwhite;" placeholder="Enter your address,box is customizable"></textarea>
+            <p style="color: blueviolet;"><b>EDUCATION </b></p><br/>
+            <label for="edu"> Masters??&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" id="edu" name="education" value="Graduation:" >&nbsp;&nbsp;&nbsp;Name of Degree:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"/><br/><br/>
+
+            <label for="edu"> Bachelors??&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" id="edu" name="education" value="Under-Graduation:" >&nbsp;&nbsp;&nbsp;Name of Degree:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"/>
+            <br/><br/><label for="edu"> Intermediate??&nbsp;</label>
+            <input type="checkbox" id="edu" name="education" value="Intermediate:" >&nbsp;&nbsp;&nbsp;Name of Certificate:<input type="text"/>
+            <br/><br/><label for="edu"> Matriculation??</label>
+            <input type="checkbox" id="edu" name="education" value="Matriculation:" >&nbsp;&nbsp;&nbsp;Name of Certificate:<input type="text"/>
+          <br/><br/><br/>
+          <label style="color: blueviolet;"><b>WORK EXPERIENCE(Box is customizable , Adjust accordingly)</b></label><br/><br/>
+          
+          <textarea name="butt" id="buton" style="height: 500; width: 500;"> Work Experience.....</textarea>
+        <br/><br/>
+        <p style="background-color: cornflowerblue;color: seashell;">SKILLS</p><br/><br/>
+        <ul style="color: chartreuse;">
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+        <li><input  type="text"/></li><br/>
+       
+    </ul>
+    <input type="submit" value="Submit" style="text-align:center;color: blueviolet;background-color: aqua;"/>
+     
+</form>
+<p style="color: darkolivegreen;">Click on 'Particulars' to get particulars fetched !!</p>
+<button onclick="Print()" style="color: blueviolet;background-color: bisque; border-radius: 50%;">Particulars</button>
+
+<p id="demo"></p>
+
+<script src="./Print.js">
+</script>
+
+<label style="font-family: cursive;color: deeppink;"> Click below to print your Resume!! </label><br/><br/>
+<button onclick="window.print()" style="border-color: darkorange; border-radius: 50%;color: blueviolet;background-color: khaki;height: 50; width: 50;">Print Your Resume</button>
+
+
+    </body>
+</html>
